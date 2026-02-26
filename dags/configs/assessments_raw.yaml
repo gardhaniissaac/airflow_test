@@ -1,0 +1,19 @@
+table_name: assessments_raw
+primary_key: assessment_id
+fields:
+  - name: assessment_id
+    type: string
+  - name: student_id
+    type: string
+  - name: subject
+    type: string
+  - name: score
+    type: string
+  - name: max_score
+    type: string
+  - name: assessment_date
+    type: string
+  - name: created_at
+    type: string
+  - name: _timestamp
+    type: timestamp

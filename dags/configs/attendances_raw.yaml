@@ -1,0 +1,15 @@
+table_name: attendances_raw
+primary_key: attendance_id
+fields:
+  - name: attendance_id
+    type: string
+  - name: student_id
+    type: string
+  - name: attendance_date
+    type: timestamp
+  - name: status
+    type: string
+  - name: created_at
+    type: timestamp
+  - name: _timestamp
+    type: timestamp

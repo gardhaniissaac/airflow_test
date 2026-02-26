@@ -1,0 +1,22 @@
+table_name: assessments
+fields:
+  - name: class_id
+    type: string
+  - name: date
+    type: timestamp
+  - name: total_students
+    type: integer
+  - name: students_with_attendance
+    type: integer
+  - name: present_count
+    type: integer
+  - name: absent_count
+    type: integer
+  - name: attendance_rate
+    type: float
+  - name: students_with_assessment
+    type: integer
+  - name: assessment_count
+    type: integer
+  - name: avg_score
+    type: float

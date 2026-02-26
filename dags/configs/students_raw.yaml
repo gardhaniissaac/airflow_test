@@ -1,0 +1,17 @@
+table_name: students_raw
+primary_key: student_id
+fields:
+  - name: student_id
+    type: string
+  - name: student_name
+    type: string
+  - name: class_id
+    type: string
+  - name: grade_level
+    type: string
+  - name: enrollment_status
+    type: string
+  - name: updated_at
+    type: timestamp
+  - name: _timestamp
+    type: timestamp
