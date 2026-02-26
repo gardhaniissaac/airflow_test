@@ -7,6 +7,42 @@ Stack:
 - PostgreSQL
 - Docker & Docker Compose
 
+## Project Structure
+Project Structure
+```.
+├── Dockerfile
+├── README.md
+├── config
+│   └── airflow.cfg
+├── dags
+│   ├── configs
+│   │   ├── assessments.yaml
+│   │   ├── assessments_raw.yaml
+│   │   ├── attendances.yaml
+│   │   ├── attendances_raw.yaml
+│   │   ├── daily_performances.yaml
+│   │   ├── students.yaml
+│   │   └── students_raw.yaml
+│   ├── resources
+│   │   ├── assessments.json
+│   │   ├── attendances.csv
+│   │   └── students.csv
+│   ├── scripts
+│   │   ├── tests
+│   │   │   └── schema_loader_test.py
+│   │   ├── db.py
+│   │   ├── schema_loader.py
+│   │   └── spark_ingestion.py
+│   ├── assessments_dag.py
+│   ├── assessments_raw_dag.py
+│   ├── attendances_dag.py
+│   ├── attendances_raw_dag.py
+│   ├── daily_performance_dag.py
+│   ├── students_dag.py
+│   └── students_raw_dag.py
+├── docker-compose.yaml
+└── requirements.txt
+```
 ---
 
 # 🚀 First Time Setup
